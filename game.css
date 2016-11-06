@@ -1,0 +1,80 @@
+*{
+    list-style: none;
+}
+body{
+      background: url(3.jpg) no-repeat 200px 0px;
+    }
+.box{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	border:1px solid #000;
+	background: url(1.jpg);
+}
+.box div{
+	width:28px;
+	height:28px;
+	border:1px solid #000;
+	float: left;
+
+
+}
+.snake{
+	background: red;
+	border-radius:20%;
+}
+.food{
+	background: blue;
+	border-radius:20%;
+}
+.score{
+    font-family: '黑体';
+    left:997px;
+    top:100px;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    background-color: #212121;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 50px;
+ }
+ .score p{
+    width: 100px;
+    position: absolute;
+    top: -29px;
+    left: 60px;
+    font-size: 30px;
+
+
+ }
+ .btn{
+    font-family: '黑体';
+    left:997px;
+    top: 277px;
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: #1193FF;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  input{
+    margin: 50px 0 0 50px;
+    cursor:pointer;
+    width:100px;
+    height:50px;
+
+}
+ul{
+     position:absolute;
+    top: 100px;
+    left: 149px;
+}
+ul li{
+    margin-top: 20px;
+}
